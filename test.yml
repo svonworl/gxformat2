@@ -11,7 +11,7 @@ outputs:
 steps:
   cat:
     tool_id: cat1
-    when: "true"
+    when: true
     doc: cat doc
     in:
       input1: the_input
